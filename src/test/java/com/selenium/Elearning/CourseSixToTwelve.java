@@ -43,6 +43,14 @@ public class CourseSixToTwelve extends BaseDriver{
 			        JavascriptExecutor js1 = (JavascriptExecutor) driver;
 			        js.executeScript("window.scrollTo(0, 0);");
 			        Thread.sleep(2000);
+			        
+			        //Randomly selete a item
+					List<WebElement> options2 = driver.findElements(By.xpath("//body/main[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]"));
+					driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+					Random rand2 = new Random();
+					int list2= rand2.nextInt(options2.size());
+					options2.get(list2).click();
+					Thread.sleep(3000);
 
 			        WebElement GoToHome = driver.findElement(By.xpath(" //body/main[1]/div[1]/div[1]/div[2]/a[1]/div[1]/img[1]"));
 			        GoToHome.click();

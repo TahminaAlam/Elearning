@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-23T15:04:43 BDT" name="Default suite" finished-at="2024-05-23T15:05:29 BDT" duration-ms="46211">
+  <suite started-at="2024-05-23T19:21:05 BDT" name="Default suite" finished-at="2024-05-23T19:21:22 BDT" duration-ms="16723">
     <groups>
     </groups>
-    <test started-at="2024-05-23T15:04:43 BDT" name="Default test" finished-at="2024-05-23T15:05:29 BDT" duration-ms="46211">
-      <class name="com.selenium.Elearning.TenMinuteSchool">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.selenium.Elearning.TenMinuteSchool@c94fd30]" started-at="2024-05-23T15:04:41 BDT" name="start" finished-at="2024-05-23T15:04:43 BDT" duration-ms="1535" status="PASS">
+    <test started-at="2024-05-23T19:21:05 BDT" name="Default test" finished-at="2024-05-23T19:21:22 BDT" duration-ms="16723">
+      <class name="com.selenium.Elearning.SearchForCourse">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.selenium.Elearning.SearchForCourse@c94fd30]" started-at="2024-05-23T19:21:03 BDT" name="start" finished-at="2024-05-23T19:21:05 BDT" duration-ms="1946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="Test()[pri:0, instance:com.selenium.Elearning.TenMinuteSchool@c94fd30]" started-at="2024-05-23T15:04:43 BDT" name="Test" finished-at="2024-05-23T15:05:29 BDT" duration-ms="46117" status="PASS">
+        <test-method signature="Test()[pri:0, instance:com.selenium.Elearning.SearchForCourse@c94fd30]" started-at="2024-05-23T19:21:05 BDT" name="Test" finished-at="2024-05-23T19:21:22 BDT" duration-ms="16641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-      </class> <!-- com.selenium.Elearning.TenMinuteSchool -->
+      </class> <!-- com.selenium.Elearning.SearchForCourse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

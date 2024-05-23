@@ -41,11 +41,49 @@ public class SearchForCourse extends BaseDriver{
 		        JavascriptExecutor js1 = (JavascriptExecutor) driver;
 		        js.executeScript("window.scrollTo(0, 0);");
 		        Thread.sleep(2000);
+		        
+		        //Back to previous page
+		        driver.navigate().back();
+		    	Thread.sleep(2000);
 
-		        WebElement GoToHome = driver.findElement(By.xpath(" //body/main[1]/div[1]/div[1]/div[2]/a[1]/div[1]/img[1]"));
-		        GoToHome.click();
+		    	driver.navigate().back();
+		    	Thread.sleep(2000);
+		        
+		        WebElement SearchforIELTS = driver.findElement(By.xpath("//body/main[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/input[1]"));
+		        SearchforIELTS.clear();
+		        SearchforIELTS.sendKeys("IELTS");
+		        SearchforIELTS.sendKeys(Keys.ENTER);
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-		     
+
+//				WebElement ClickToJob = driver.findElement(By.xpath("//input[@id='Filter by-jobs-prep']"));
+//				ClickToJob.click();
+//				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+//				
+//				WebElement ClickToSpokenEnglish = driver.findElement(By.xpath("//h2[contains(text(),'ঘরে বসে Spoken English')]"));
+//				ClickToSpokenEnglish.click();
+//				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+//				
+//				WebElement ScrollToCourseInstractor = driver.findElement(By.xpath("//h2[contains(text(),'Course instructor')]"));
+//				action.moveToElement(ScrollToCourseInstractor).perform();
+//				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+//				
+//				WebElement ScrollToWhatYouWillLearn = driver.findElement(By.xpath("//h2[contains(text(),'What you will learn by doing the course')]"));
+//				action.moveToElement(ScrollToWhatYouWillLearn).perform();
+//				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+//				
+//				WebElement ScrollToCourseDetails1 = driver.findElement(By.xpath("//body/main[1]/div[3]/main[1]/section[1]/div[1]/div[2]/div[6]/div[1]/div[1]/div[1]/h2[1]"));
+//				action.moveToElement(ScrollToCourseDetails1).perform();
+//				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+//				
+//				WebElement Shrink = driver.findElement(By.xpath("//body/main[1]/div[3]/main[1]/section[1]/div[1]/div[2]/div[6]/div[1]/div[1]/div[1]/div[1]/details[1]/summary[1]"));
+//				action.moveToElement(Shrink).click();
+//				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+//				
+//				WebElement ScrollToContentPreview = driver.findElement(By.xpath("//h2[contains(text(),'Content preview')]"));
+//				action.moveToElement(ScrollToContentPreview).perform();
+//				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+//				
+				
 			}
 
 		}

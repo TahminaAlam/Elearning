@@ -28,9 +28,9 @@ public class BaseDriver {
 		}
 	}
 	
-	@AfterSuite
-	public void close() {
-		driver.close();
-	}
+//	@AfterSuite
+//	public void close() {
+//		driver.close();
+//	}
 
 }

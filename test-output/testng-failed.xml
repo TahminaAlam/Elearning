@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.Elearning.Open10MinuteSchool">
+      <class name="com.selenium.Elearning.TenMinuteSchool">
         <methods>
           <include name="start"/>
-          <include name="close"/>
-          <include name="RegistrationTest"/>
+          <include name="Test"/>
         </methods>
-      </class> <!-- com.selenium.Elearning.Open10MinuteSchool -->
+      </class> <!-- com.selenium.Elearning.TenMinuteSchool -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

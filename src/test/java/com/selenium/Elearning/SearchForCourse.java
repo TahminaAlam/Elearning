@@ -20,35 +20,35 @@ public class SearchForCourse extends BaseDriver{
 				driver.manage().window().maximize(); //maximize the window
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));  //wait for a 5 seconds of time before throwing an exception
 		        
-//				//Write on the search box
-//				WebElement Search = driver.findElement(By.xpath("//body/main[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/input[1]"));
-//				Search.sendKeys("Free Courses");
-//				Search.sendKeys(Keys.ENTER);
-//				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-//				
-//				//Select a course
-//				WebElement SelectCourse = driver.findElement(By.xpath("//h2[contains(text(),'English for Everyday')]"));
+				//Write on the search box
+				WebElement Search = driver.findElement(By.xpath("//body/main[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/input[1]"));
+				Search.sendKeys("Free Courses");
+				Search.sendKeys(Keys.ENTER);
+				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+				
+				//Select a course
+				WebElement SelectCourse = driver.findElement(By.xpath("//h2[contains(text(),'English for Everyday')]"));
 				Actions action = new Actions(driver);
-//				action.moveToElement(SelectCourse).perform();
-//				SelectCourse.click();
-//				Thread.sleep(3000);
-//				
+				action.moveToElement(SelectCourse).perform();
+				SelectCourse.click();
+				Thread.sleep(3000);
+				
 				JavascriptExecutor js = (JavascriptExecutor) driver;
-//				//Scroll down till the bottom of the page
-//				js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-//				Thread.sleep(2000);
-//				
-//				// Scroll to the top of the page
-//		        js.executeScript("window.scrollTo(0, 0);");
-//		        Thread.sleep(2000);
-//		        
-//		        //Back to previous page
-//		        driver.navigate().back();
-//		    	Thread.sleep(2000);
-//
-//		    	//Back to previous page
-//		    	driver.navigate().back();
-//		    	Thread.sleep(2000);
+				//Scroll down till the bottom of the page
+				js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+				Thread.sleep(2000);
+				
+				// Scroll to the top of the page
+		        js.executeScript("window.scrollTo(0, 0);");
+		        Thread.sleep(2000);
+		        
+		        //Back to previous page
+		        driver.navigate().back();
+		    	Thread.sleep(2000);
+
+		    	//Back to previous page
+		    	driver.navigate().back();
+		    	Thread.sleep(2000);
 				
 				WebElement Language = driver.findElement(By.xpath("//body/main[1]/div[1]/div[1]/div[4]/div[1]/span[2]"));
 				Language.click();
@@ -56,8 +56,8 @@ public class SearchForCourse extends BaseDriver{
 		        
 		    	//Clear previously written text and write new text
 		        WebElement SearchforIELTS = driver.findElement(By.xpath("//body/main[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/input[1]"));
-//		        SearchforIELTS.click();
-//		        SearchforIELTS.clear();
+		        SearchforIELTS.click();
+		        SearchforIELTS.clear();
 		        SearchforIELTS.sendKeys("IELTS");
 		        SearchforIELTS.sendKeys(Keys.ENTER);
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));

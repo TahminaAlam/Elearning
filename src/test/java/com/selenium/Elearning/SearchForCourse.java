@@ -89,20 +89,10 @@ public class SearchForCourse extends BaseDriver{
 				action.moveToElement(ScrollToCourseDetails1).perform();
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 				
-//				//Shirk the expended item
-//				WebElement Shrink = driver.findElement(By.xpath("//b[contains(text(),\"About the 'Ghore Boshe Spoken English' course:\")]"));
-//				Shrink.click();
-//				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-				
 				//Scroll to element
 				WebElement ScrollToContentPreview = driver.findElement(By.xpath("//h2[contains(text(),'Content preview')]"));
 				action.moveToElement(ScrollToContentPreview).perform();
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-				
-//				//Shirk the expended item
-//				WebElement ShirnkContentPreview = driver.findElement(By.xpath("//h3[contains(text(),'ইংরেজি বলা শুরু করুন')]"));
-//				ShirnkContentPreview.click();
-//				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 				
 				//Scroll to element
 				WebElement ScrollToCourseCertificate = driver.findElement(By.xpath("//h2[contains(text(),'Course certificate')]"));

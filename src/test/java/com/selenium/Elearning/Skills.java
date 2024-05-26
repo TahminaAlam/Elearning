@@ -33,18 +33,58 @@ public class Skills extends BaseDriver{
 						int list= rand.nextInt(options.size());
 						options.get(list).click();
 						Thread.sleep(3000);
-					
+					    
+						//Click on bundle
+						WebElement ClickOnBundle = driver.findElement(By.xpath("//body/main[1]/div[4]/div[1]/div[1]/div[1]/a[3]"));
+						ClickOnBundle.click();
+//						ClickOnBundle.click();
+					    Thread.sleep(2000);
+						
 						JavascriptExecutor js = (JavascriptExecutor) driver;
+//						//Scroll down till the bottom of the page
+//						js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+//						Thread.sleep(2000);
+//						
+//						// Scroll to the top of the page
+//				        js.executeScript("window.scrollTo(0, 0);");
+//				        Thread.sleep(2000);
+				        
+//				        //Scroll to a course
+//						WebElement ScrollToCourse = driver.findElement(By.xpath("//body/main[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]/div[1]/div[2]"));
+//						Actions action = new Actions(driver);
+//						action.moveToElement(ScrollToCourse).perform();
+//						ScrollToCourse.click();
+//						Thread.sleep(3000);
+						
+				        //Click On Course
+				        WebElement ClickOnCourse = driver.findElement(By.xpath("//body/main[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]/div[1]"));
+				        ClickOnCourse.click();
+				        Thread.sleep(2000);
+
 						//Scroll down till the bottom of the page
 						js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 						Thread.sleep(2000);
 						
 						// Scroll to the top of the page
-				        JavascriptExecutor js1 = (JavascriptExecutor) driver;
 				        js.executeScript("window.scrollTo(0, 0);");
 				        Thread.sleep(2000);
-
-				        //Go to home
+				        
+				       //Click on enroll button
+						WebElement EnrollButton = driver.findElement(By.xpath("//body/main[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]"));
+						EnrollButton.click();
+						driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+						
+						
+						//Start Now
+						WebElement StartNow = driver.findElement(By.xpath("//body/app-root[1]/div[1]/div[1]/app-home[1]/div[1]/main[1]/app-checkout[1]/div[1]/div[1]/div[2]/div[2]/app-cart[1]/div[1]/div[2]/div[2]/button[1]"));
+						StartNow.click();
+						driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+						
+						//Back to previous page
+				    	driver.navigate().back();
+				    	Thread.sleep(2000);
+				        
+						// Go Home	
 				        WebElement GoToHome = driver.findElement(By.xpath(" //body/main[1]/div[1]/div[1]/div[2]/a[1]/div[1]/img[1]"));
 				        GoToHome.click();
 						driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));

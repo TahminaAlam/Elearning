@@ -38,12 +38,12 @@ public class SeachTestCases extends BaseDriver{
 					searchPage.scrollToElement(searchPage.Title, 2000);
 					searchPage.clickOnElement(searchPage.EnrollButton, 2000);
 					searchPage.clickOnElement(searchPage.StartNow, 2000);
-					searchPage.BackToPreviousPage(searchPage.SearchButton, 2000, 3);
+					searchPage.BackToPreviousPage(null, 2000, 3);
 					searchPage.clearText(searchPage.SearchButton);
 					Thread.sleep(2000);
 					searchPage.writeText(searchPage.SearchButton, 2000, "Free Course");
 					searchPage.Enter(searchPage.SearchButton, 2000);
-					searchPage.BackToPreviousPage(searchPage.SearchButton, 2000, 1);
+					searchPage.BackToPreviousPage(null, 2000, 1);
 			
 
 				}

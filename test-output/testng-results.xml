@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-03T17:05:22 BDT" name="Suite" finished-at="2024-06-03T17:06:16 BDT" duration-ms="54474">
+  <suite started-at="2024-06-03T18:15:24 BDT" name="Default suite" finished-at="2024-06-03T18:16:18 BDT" duration-ms="53711">
     <groups>
     </groups>
-    <test started-at="2024-06-03T17:05:22 BDT" name="Test" finished-at="2024-06-03T17:06:16 BDT" duration-ms="54474">
-      <class name="testcases.SeachTestCases">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.SeachTestCases@29ca3d04]" started-at="2024-06-03T17:05:22 BDT" name="setBrowser" finished-at="2024-06-03T17:05:23 BDT" duration-ms="1491" status="PASS">
+    <test started-at="2024-06-03T18:15:24 BDT" name="Default test" finished-at="2024-06-03T18:16:18 BDT" duration-ms="53711">
+      <class name="testcases.HomeTeseCases">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.HomeTeseCases@b2c5e07]" started-at="2024-06-03T18:15:24 BDT" name="setBrowser" finished-at="2024-06-03T18:15:26 BDT" duration-ms="1582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="TestsearchPage()[pri:0, instance:testcases.SeachTestCases@29ca3d04]" started-at="2024-06-03T17:05:23 BDT" name="TestsearchPage" finished-at="2024-06-03T17:06:16 BDT" duration-ms="52840" status="PASS">
+        <test-method signature="TestsearchPage()[pri:0, instance:testcases.HomeTeseCases@b2c5e07]" started-at="2024-06-03T18:15:26 BDT" name="TestsearchPage" finished-at="2024-06-03T18:16:18 BDT" duration-ms="51992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestsearchPage -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.SeachTestCases@29ca3d04]" started-at="2024-06-03T17:06:16 BDT" name="quitBrowser" finished-at="2024-06-03T17:06:16 BDT" duration-ms="303" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.HomeTeseCases@b2c5e07]" started-at="2024-06-03T18:16:18 BDT" name="quitBrowser" finished-at="2024-06-03T18:16:18 BDT" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- testcases.SeachTestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testcases.HomeTeseCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -5,6 +5,7 @@
     <classes>
 
       <class name="testcases.SeachTestCases"/>
+      <class name="testcases.HomeTeseCases"/>
 
     </classes>
   </test> <!-- Test -->

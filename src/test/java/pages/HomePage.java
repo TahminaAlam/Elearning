@@ -31,8 +31,8 @@ public class HomePage extends BasePage{
       public By Homepage8thClass = By.xpath("//body/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/a[1]/div[1]");
       public By Homepage7thClass = By.xpath("//body/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/a[1]/div[1]");
       public By Homepage6thClass = By.xpath("//body/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]/a[1]/div[1]"); 
-      public By CloseHSC = By.xpath("//body/div[5]/div[1]/div[1]/button[1]/*[1]");
-      public By OpenBactch = By.xpath("//body/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]");
+      public By HomeCloseDialogueBox = By.xpath("//body/div[5]/div[1]/div[1]/button[1]/*[1]");
+      public By HSCBactchDemo = By.xpath("//body/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]");
       public By SixToNineClassDemo = By.xpath("//body/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[2]");
       public By AllSkillDevelopmentCourses = By.xpath("//body/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/div[3]/a[1]");
       public By HomepageClass5To12 = By.xpath("//body/main[1]/div[3]/div[1]/div[2]/div[2]/div[1]/a[1]/div[1]");
@@ -48,9 +48,7 @@ public class HomePage extends BasePage{
       public By TeacherBanner = By.xpath("//body/main[1]/div[3]/div[8]/div[1]/div[1]");
       public By DownloadAppBanner = By.xpath("//body/main[1]/div[3]/div[10]/div[1]/div[1]");
       public By ContactDirectly = By.xpath("//body/main[1]/div[3]/div[10]/div[1]/div[1]");
+      public By CloseContact = By.xpath("//body/div[1]/div[1]/div[3]/button[1]/*[1]");
       public By TopBanner= By.xpath("//body/main[1]/div[2]/div[1]/div[1]/a[1]/img[1]");
      
-      
-    
-
 }

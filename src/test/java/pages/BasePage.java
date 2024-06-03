@@ -18,10 +18,6 @@ public class BasePage {
 		return getDriver().findElement(locator);
 	}
 	
-//	public void writeText(By locator, String text) {
-//		getElement(locator).sendKeys(text);
-//	}
-	
 	public void writeText(By locator, long mil, String text) {
 		getElement(locator).sendKeys(text);
 		try {
@@ -36,14 +32,16 @@ public class BasePage {
 		getElement(locator).sendKeys(Keys.BACK_SPACE);
 	}
 	
-	public void sendKeysEnter(By locator) {
+	public void Enter(By locator, long mil) {
 		getElement(locator).sendKeys(Keys.ENTER);
+		try {
+			Thread.sleep(mil);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
-	
-//	public void clickOnElement(By locator) {
-//		getElement(locator).click();
-//	}
-	
+
 	public void clickOnElement(By locator, long mil) {
 		getElement(locator).click();
 		
@@ -59,10 +57,16 @@ public class BasePage {
 		Allure.addAttachment(name, new ByteArrayInputStream(((TakesScreenshot)(getDriver())).getScreenshotAs(OutputType.BYTES)));
 	}
 	
-	public void scrollToElement(By locator) {
+	public void scrollToElement(By locator, long mil) {
 		WebElement el = getElement(locator);
 		JavascriptExecutor js = (JavascriptExecutor)getDriver();
 		js.executeScript("arguments[0].scrollIntoView();", el);
+		try {
+			Thread.sleep(mil);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	public void scrollToBottom() {
@@ -77,15 +81,7 @@ public class BasePage {
 		js.executeScript("window.scrollTo(0, 0);",el);
 	}
 	
-//	public void hoverTest(By locator) throws InterruptedException {
-//		Actions action = new Actions(getDriver());
-//		WebElement hoverExample = getDriver().findElement(locator);
-//		action.moveToElement(hoverExample).perform();
-//		Thread.sleep(5000);
-//	}
-	
 	public void hoverTest(By locator, long mil)  {
-		
 		Actions action = new Actions(getDriver());
 		WebElement hoverExample = getDriver().findElement(locator);
 		action.moveToElement(hoverExample).perform();
@@ -97,4 +93,18 @@ public class BasePage {
 		}
 	}
 	
+    public void BackToPreviousPage(By locator, long mil , int time) {
+		
+		for(int i = 0 ; i < time ; i++ ) {
+			getDriver().navigate().back();
+			try {
+				Thread.sleep(mil);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+    
+    
 }

@@ -10,7 +10,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import io.qameta.allure.Allure;
 import static utilities.BaseDriver.getDriver;
-import java.awt.Desktop.Action;
 
 public class BasePage {
 

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-04T17:33:16 BDT" name="Default suite" finished-at="2024-06-04T17:33:40 BDT" duration-ms="24414">
+  <suite started-at="2024-06-04T18:26:57 BDT" name="Default suite" finished-at="2024-06-04T18:28:16 BDT" duration-ms="79474">
     <groups>
     </groups>
-    <test started-at="2024-06-04T17:33:16 BDT" name="Default test" finished-at="2024-06-04T17:33:40 BDT" duration-ms="24414">
-      <class name="testcases.HomeTeseCases">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.HomeTeseCases@6ce86ce1]" started-at="2024-06-04T17:33:16 BDT" name="setBrowser" finished-at="2024-06-04T17:33:18 BDT" duration-ms="1403" status="PASS">
+    <test started-at="2024-06-04T18:26:57 BDT" name="Default test" finished-at="2024-06-04T18:28:16 BDT" duration-ms="79474">
+      <class name="testcases.CategoryTestCases">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.CategoryTestCases@6ce86ce1]" started-at="2024-06-04T18:26:57 BDT" name="setBrowser" finished-at="2024-06-04T18:26:58 BDT" duration-ms="1321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="TestsearchPage()[pri:0, instance:testcases.HomeTeseCases@6ce86ce1]" started-at="2024-06-04T17:33:18 BDT" name="TestsearchPage" finished-at="2024-06-04T17:33:40 BDT" duration-ms="22886" status="PASS">
+        <test-method signature="TestsearchPage()[pri:0, instance:testcases.CategoryTestCases@6ce86ce1]" started-at="2024-06-04T18:26:58 BDT" name="TestsearchPage" finished-at="2024-06-04T18:28:16 BDT" duration-ms="78039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestsearchPage -->
-      </class> <!-- testcases.HomeTeseCases -->
+      </class> <!-- testcases.CategoryTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

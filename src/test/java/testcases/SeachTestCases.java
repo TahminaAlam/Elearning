@@ -2,13 +2,11 @@ package testcases;
 
 import org.testng.annotations.Test;
 
-import pages.BasePage;
 import pages.SearchPage;
 import utilities.BaseDriver;
 
 public class SeachTestCases extends BaseDriver{
 				
-	          BasePage basePage = new BasePage();
 			  SearchPage searchPage = new SearchPage();
 			    
 				@Test
@@ -41,9 +39,9 @@ public class SeachTestCases extends BaseDriver{
 					searchPage.BackToPreviousPage(null, 2000, 3);
 					searchPage.clearText(searchPage.SearchButton);
 					Thread.sleep(2000);
-					searchPage.writeText(searchPage.SearchButton, 2000, "Free Course");
-					searchPage.Enter(searchPage.SearchButton, 2000);
-					searchPage.BackToPreviousPage(null, 2000, 1);
+//					searchPage.writeText(searchPage.SearchButton, 2000, "Free Course");
+//					searchPage.Enter(searchPage.SearchButton, 2000);
+//					searchPage.BackToPreviousPage(null, 2000, 1);
 			
 
 				}

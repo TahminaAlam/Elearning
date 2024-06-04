@@ -2,15 +2,11 @@ package testcases;
 
 import org.testng.annotations.Test;
 
-import pages.BasePage;
 import pages.HomePage;
-import pages.SearchPage;
 import utilities.BaseDriver;
 
          public class HomeTeseCases extends BaseDriver{
 	
-	
-//	     BasePage basePage = new BasePage();
 	     HomePage homePage = new HomePage();
 	    
 		@Test

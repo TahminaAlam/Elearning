@@ -2,23 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-03T18:15:24 BDT" name="Default suite" finished-at="2024-06-03T18:16:18 BDT" duration-ms="53711">
+  <suite started-at="2024-06-04T17:33:16 BDT" name="Default suite" finished-at="2024-06-04T17:33:40 BDT" duration-ms="24414">
     <groups>
     </groups>
-    <test started-at="2024-06-03T18:15:24 BDT" name="Default test" finished-at="2024-06-03T18:16:18 BDT" duration-ms="53711">
+    <test started-at="2024-06-04T17:33:16 BDT" name="Default test" finished-at="2024-06-04T17:33:40 BDT" duration-ms="24414">
       <class name="testcases.HomeTeseCases">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.HomeTeseCases@b2c5e07]" started-at="2024-06-03T18:15:24 BDT" name="setBrowser" finished-at="2024-06-03T18:15:26 BDT" duration-ms="1582" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.HomeTeseCases@6ce86ce1]" started-at="2024-06-04T17:33:16 BDT" name="setBrowser" finished-at="2024-06-04T17:33:18 BDT" duration-ms="1403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="TestsearchPage()[pri:0, instance:testcases.HomeTeseCases@b2c5e07]" started-at="2024-06-03T18:15:26 BDT" name="TestsearchPage" finished-at="2024-06-03T18:16:18 BDT" duration-ms="51992" status="PASS">
+        <test-method signature="TestsearchPage()[pri:0, instance:testcases.HomeTeseCases@6ce86ce1]" started-at="2024-06-04T17:33:18 BDT" name="TestsearchPage" finished-at="2024-06-04T17:33:40 BDT" duration-ms="22886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestsearchPage -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.HomeTeseCases@b2c5e07]" started-at="2024-06-03T18:16:18 BDT" name="quitBrowser" finished-at="2024-06-03T18:16:18 BDT" duration-ms="334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
       </class> <!-- testcases.HomeTeseCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

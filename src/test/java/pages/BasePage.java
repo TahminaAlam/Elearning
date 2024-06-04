@@ -60,7 +60,7 @@ public class BasePage {
 	public void scrollToElement(By locator, long mil) {
 		WebElement el = getElement(locator);
 		JavascriptExecutor js = (JavascriptExecutor)getDriver();
-		js.executeScript("arguments[0].scrollIntoView();", el);
+		js.executeScript("arguments[0].scrollIntoView(true);", el);
 		try {
 			Thread.sleep(mil);
 		} catch (InterruptedException e) {

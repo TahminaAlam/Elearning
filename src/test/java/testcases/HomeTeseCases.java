@@ -10,7 +10,7 @@ import utilities.BaseDriver;
          public class HomeTeseCases extends BaseDriver{
 	
 	
-	     BasePage basePage = new BasePage();
+//	     BasePage basePage = new BasePage();
 	     HomePage homePage = new HomePage();
 	    
 		@Test
@@ -52,9 +52,13 @@ import utilities.BaseDriver;
 			homePage.BackToPreviousPage(null, 2000, 1);
 			homePage.clickOnElement(homePage.SixToNineClassDemo, 2000);
 			homePage.BackToPreviousPage(null, 2000, 1);
-			homePage.scrollToElement(homePage.AllSkillDevelopmentCourses, 2000);
+			
+
+			homePage.scrollToElement(homePage.ScrollToAllSkillDevelopmentCourses, 2000);
 			homePage.clickOnElement(homePage.AllSkillDevelopmentCourses, 2000);
 			homePage.BackToPreviousPage(null, 2000, 1);
+
+			
 			homePage.scrollToElement(homePage.HomepageClass5To12, 2000);
 			homePage.clickOnElement(homePage.HomepageClass5To12, 2000);
 			homePage.BackToPreviousPage(null, 2000, 1);
@@ -64,28 +68,36 @@ import utilities.BaseDriver;
 			homePage.BackToPreviousPage(null, 2000, 1);
 			homePage.clickOnElement(homePage.HomeJobPreparation, 2000);
 			homePage.BackToPreviousPage(null, 2000, 1);
-			homePage.scrollToElement(homePage.ClickOnVideo, 2000);
+			
+			homePage.scrollToElement(homePage.ScrolltoClickOnVideo, 2000);
 			homePage.clickOnElement(homePage.ClickOnVideo, 2000);
 			homePage.clickOnElement(homePage.ClickOnVideo, 2000);
 			homePage.clickOnElement(homePage.SelectYourCourse, 2000);
 			homePage.BackToPreviousPage(null, 2000, 1);
-			homePage.scrollToElement(homePage.ForSscHscStudents, 2000);
-			homePage.scrollToElement(homePage.HomeSkillsAllCourse, 2000);
+			
+			homePage.scrollToElement(homePage.ScrollToForSscHscStudents, 2000);
+			
+			homePage.scrollToElement(homePage.ScrollToHomeSkillsAllCourse, 2000);
 			homePage.clickOnElement(homePage.HomeSkillsAllCourse, 2000);
 			homePage.BackToPreviousPage(null, 2000, 1);
-			homePage.scrollToElement(homePage.DreamVersityAllCourses, 2000);
+			
+			homePage.scrollToElement(homePage.ScrollToDreamVersityAllCourses, 2000);
 			homePage.clickOnElement(homePage.DreamVersityAllCourses, 2000);
 			homePage.BackToPreviousPage(null, 2000, 1);
-			homePage.scrollToElement(homePage.GovJobAllCourse, 2000);
+			
+			homePage.scrollToElement(homePage.ScrollToGovJobAllCourse, 2000);
 			homePage.clickOnElement(homePage.GovJobAllCourse, 2000);
 			homePage.BackToPreviousPage(null, 2000, 1);
-			homePage.scrollToElement(homePage.TeacherBanner, 2000);
-			homePage.BackToPreviousPage(null, 2000, 1);
+			
+			homePage.scrollToElement(homePage.Banner, 2000);
+			
 			homePage.scrollToElement(homePage.DownloadAppBanner, 2000);
-			homePage.BackToPreviousPage(null, 2000, 1);
-			homePage.scrollToElement(homePage.ContactDirectly, 2000);
-			homePage.scrollToElement(homePage.CloseContact, 2000);
-			homePage.clickOnElement(homePage.TopBanner, 2000);
+			
+			homePage.clickOnElement(homePage.ContactDirectly, 2000);
+			homePage.clickOnElement(homePage.CloseContact, 2000);
+			
+			homePage.scrollToElement(homePage.TopBanner, 2000);
+			homePage.scrollToTop();
 
      }
 }

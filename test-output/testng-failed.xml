@@ -5,7 +5,6 @@
     <classes>
       <class name="testcases.HomeTeseCases">
         <methods>
-          <include name="quitBrowser"/>
           <include name="setBrowser"/>
           <include name="TestsearchPage"/>
         </methods>

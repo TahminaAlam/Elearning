@@ -17,7 +17,7 @@ public class CategoryTestCases extends BaseDriver{
 					e.printStackTrace();
 				}
 
-				categoryPage.hoverTest(categoryPage.ClassSixToTwelve, 2000);
+//				categoryPage.hoverTest(categoryPage.ClassSixToTwelve, 2000);
 				categoryPage.clickOnElement(categoryPage.ClassSixToTwelve, 2000);
 				categoryPage.clickOnElement(categoryPage.ClassHSC, 2000);
 				categoryPage.BackToPreviousPage(null, 2000, 1);

@@ -17,60 +17,22 @@ public class CategoryTestCases extends BaseDriver{
 					e.printStackTrace();
 				}
 
-//				categoryPage.hoverTest(categoryPage.ClassSixToTwelve, 2000);
-				categoryPage.clickOnElement(categoryPage.ClassSixToTwelve, 2000);
-				categoryPage.clickOnElement(categoryPage.ClassHSC, 2000);
+				categoryPage.hoverTest(categoryPage.ClassSixToTwelve, 2000);
+				categoryPage.clickOnElement(categoryPage.ClassHSC, 3000);
 				categoryPage.BackToPreviousPage(null, 2000, 1);
+
+				categoryPage.clickOnElement(categoryPage.Skills, 3000);
 				
-				categoryPage.clickOnElement(categoryPage.ClassFilter, 2000);
-				categoryPage.clickOnElement(categoryPage.ChooseClass, 3000);
+				categoryPage.clickOnElement(categoryPage.Admission, 3000);
 				categoryPage.BackToPreviousPage(null, 2000, 1);
-				
-				categoryPage.clickOnElement(categoryPage.CourseFilter, 2000);
-				categoryPage.clickOnElement(categoryPage.ChosseBusinessFilter, 3000);
-				
-				categoryPage.clickOnElement(categoryPage.ScrollToBottomOfThePage, 3000);
-				categoryPage.clickOnElement(categoryPage.ScrollToTheTopOfThePage, 3000);
-				
-				categoryPage.clickOnElement(categoryPage.ClassRoutine, 3000);
-				
-				
-				categoryPage.clickOnElement(categoryPage.ClassSixToTwelve, 2000);
-				categoryPage.clickOnElement(categoryPage.ClassTenth, 2000);
+
+				categoryPage.clickOnElement(categoryPage.OnlineBatch, 3000);
 				categoryPage.BackToPreviousPage(null, 2000, 1);
-				
-				categoryPage.clickOnElement(categoryPage.ClassSixToTwelve, 2000);
-				categoryPage.clickOnElement(categoryPage.ClassNineth, 2000);
-				categoryPage.BackToPreviousPage(null, 2000, 1);
-				
-				categoryPage.clickOnElement(categoryPage.ClassSixToTwelve, 2000);
-				categoryPage.clickOnElement(categoryPage.ClassEighth, 2000);
-				categoryPage.BackToPreviousPage(null, 2000, 1);
-				
-				categoryPage.clickOnElement(categoryPage.ClassSixToTwelve, 2000);
-				categoryPage.clickOnElement(categoryPage.ClassSeventh, 2000);
-				categoryPage.BackToPreviousPage(null, 2000, 1);
-				
-				categoryPage.clickOnElement(categoryPage.ClassSixToTwelve, 2000);
-				categoryPage.clickOnElement(categoryPage.ClassSixth, 2000);
-				categoryPage.BackToPreviousPage(null, 2000, 1);
-				
-				categoryPage.clickOnElement(categoryPage.Skills, 2000);
-				
-				
-				categoryPage.clickOnElement(categoryPage.Admission, 2000);
-				categoryPage.BackToPreviousPage(null, 2000, 1);
-				
-				
-				
-				categoryPage.clickOnElement(categoryPage.OnlineBatch, 2000);
-				categoryPage.BackToPreviousPage(null, 2000, 1);
-				
-				
+
 				categoryPage.clickOnElement(categoryPage.EnglishCenter, 2000);
-				
-				
+
 				categoryPage.clickOnElement(categoryPage.More, 2000);
+				categoryPage.BackToPreviousPage(null, 2000, 1);
 
 				
 

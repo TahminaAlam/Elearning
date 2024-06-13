@@ -29,7 +29,7 @@ public class SeachTestCases extends BaseDriver{
 					
 //					searchPage.scrollToElement(searchPage.ShirnkCourseDetails1stItem, 2000);
 //					searchPage.clickOnElement(searchPage.ShirnkCourseDetails1stItem, 2000);
-					
+				
 					searchPage.scrollToElement(searchPage.ScrollToContentPreview, 2000);
 					searchPage.scrollToElement(searchPage.ScrollToCourseCertificate, 2000);
 					searchPage.scrollToElement(searchPage.ScrollToFrequentlyAskQuestions, 2000);

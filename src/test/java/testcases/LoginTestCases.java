@@ -27,7 +27,7 @@ public class LoginTestCases extends BaseDriver{
 						System.out.println("Please Enter Your Phone No: ");
 						Scanner sc = new Scanner(System.in);
 						String phoneNO = sc.next();
-//				        sc.close();
+//				        sc.close(); 
 				        Thread.sleep(3000);
 
 						loginPage.writeText(loginPage.InputField, 2000,""+ phoneNO);

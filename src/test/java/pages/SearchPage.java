@@ -25,4 +25,3 @@ public class SearchPage extends BasePage{
                     public By GoToHome1 = By.xpath("//body/main[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/img[1]");
                     public By CourseDetails2ndItem = By.xpath("//body[1]/main[1]/div[3]/main[1]/section[1]/div[1]/div[2]/div[6]/div[1]/div[1]/div[1]/div[1]/details[2]/summary[1]/div[1]/h2[1]");
 				}
-
